@@ -1,0 +1,4 @@
+
+# chromium
+bindsym $mod+grave exec chromium
+bindsym $mod+i exec chromium

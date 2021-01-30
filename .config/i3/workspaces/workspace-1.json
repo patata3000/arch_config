@@ -1,0 +1,46 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1034,
+       "width": 956,
+       "x": 2,
+       "y": 22
+    },
+    "name": "Ergodox EZ Configurator - Chromium",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Chromium$",
+       // "instance": "^chromium$",
+       // "title": "^Ergodox\\ EZ\\ Configurator\\ \\-\\ Chromium$",
+       // "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 436,
+       "width": 644,
+       "x": 0,
+       "y": 0
+    },
+    "name": "config (~/.config/i3) - VIM",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^URxvt$",
+       // "instance": "^urxvt$",
+       // "title": "^config\\ \\(\\~\\/\\.config\\/i3\\)\\ \\-\\ VIM$"
+       }
+    ],
+    "type": "con"
+}
+

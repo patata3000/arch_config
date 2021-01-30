@@ -1,0 +1,20 @@
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 641,
+       "width": 672,
+       "x": 0,
+       "y": 0
+    },
+    "name": "guillaume@bingie: ~",
+    "percent": 1,
+    "swallows": [
+       {
+         "class": "^Gnome\\-terminal$"
+       }
+    ],
+    "type": "con"
+}
+

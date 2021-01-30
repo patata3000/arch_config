@@ -1,0 +1,20 @@
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1048,
+       "width": 1908,
+       "x": 6,
+       "y": 26
+    },
+    "name": "Google Play Music Desktop Player",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Google\\ Play\\ Music\\ Desktop\\ Player$"
+       }
+    ],
+    "type": "con"
+}
+
