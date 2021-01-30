@@ -1,0 +1,9 @@
+# emacs tmp files
+.#*
+.projectile
+
+# vscode settings
+.vscode
+
+# vim
+.vim
