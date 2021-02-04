@@ -42,12 +42,13 @@ settings:
         n: scroll down
         o: scroll right
         y: scroll left
-  content.geolocation:
-    https://www.google.com: true
-  content.host_blocking.lists:
+  content.blocking.hosts.lists:
     global:
     - youtube.com
+  content.geolocation:
+    https://www.google.com: true
   content.notifications:
+    https://www.netflix.com: false
     https://www.reddit.com: false
   url.default_page:
     global: https://google.com
