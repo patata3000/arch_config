@@ -95,121 +95,121 @@ gaps outer 0
 ###### Workspaces #######################
 
 # kill focused window
-# bindsym $mod+Shift+q kill
-bindcode $mod+Shift+24 kill
+bindsym $mod+Shift+q kill
+
 
 # floating mode
-# bindsym $mod+Shift+space floating toggle
-bindcode $mod+Shift+65 floating toggle
+bindsym $mod+Shift+space floating toggle
+
 
 # change focus
-# bindsym $mod+y focus left
-bindcode $mod+29 focus left
+bindsym $mod+y focus left
+
 bindsym $mod+n focus down
-# bindcode $mod+n focus down
+
 bindsym $mod+e focus up
-# bindcode $mod+e focus up
+
 bindsym $mod+o focus right
-# bindcode $mod+o focus right
+
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
-# bindcode $mod+Left focus left
+
 bindsym $mod+Down focus down
-# bindcode $mod+Down focus down
+
 bindsym $mod+Up focus up
-# bindcode $mod+Up focus up
+
 bindsym $mod+Right focus right
-# bindcode $mod+Right focus right
+
 
 # Last focused container (not working as expected)
 bindsym $mod+Tab focus mode_toggle
 
 # move focused window
 bindsym $mod+Shift+y move left
-# bindcode $mod+Shift+y move left
+
 bindsym $mod+Shift+n move down
-# bindcode $mod+Shift+n move down
+
 bindsym $mod+Shift+e move up
-# bindcode $mod+Shift+e move up
+
 bindsym $mod+Shift+o move right
-# bindcode $mod+Shift+o move right
+
 
 # switch to workspace
 bindsym $mod+1 workspace "  1  "
-# bindcode $mod+1 workspace "  1  "
+
 bindsym $mod+2 workspace "  2  "
-# bindcode $mod+2 workspace "  2  "
+
 bindsym $mod+3 workspace "  3  "
-# bindcode $mod+3 workspace "  3  "
+
 bindsym $mod+4 workspace "  4  "
-# bindcode $mod+4 workspace "  4  "
+
 bindsym $mod+5 workspace "  5  "
-# bindcode $mod+5 workspace "  5  "
+
 bindsym $mod+6 workspace "  6  "
-# bindcode $mod+6 workspace "  6  "
+
 bindsym $mod+7 workspace "  7  "
-# bindcode $mod+7 workspace "  7  "
+
 bindsym $mod+8 workspace "  8  "
-# bindcode $mod+8 workspace "  8  "
+
 bindsym $mod+9 workspace "  9  "
-# bindcode $mod+9 workspace "  9  "
+
 bindsym $mod+0 workspace "  10  "
-# bindcode $mod+0 workspace "  10  "
+
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace "  1  "
-# bindcode $mod+Shift+1 move container to workspace "  1  "
+
 bindsym $mod+Shift+2 move container to workspace "  2  "
-# bindcode $mod+Shift+2 move container to workspace "  2  "
+
 bindsym $mod+Shift+3 move container to workspace "  3  "
-# bindcode $mod+Shift+3 move container to workspace "  3  "
+
 bindsym $mod+Shift+4 move container to workspace "  4  "
-# bindcode $mod+Shift+4 move container to workspace "  4  "
+
 bindsym $mod+Shift+5 move container to workspace "  5  "
-# bindcode $mod+Shift+5 move container to workspace "  5  "
+
 bindsym $mod+Shift+6 move container to workspace "  6  "
-# bindcode $mod+Shift+6 move container to workspace "  6  "
+
 bindsym $mod+Shift+7 move container to workspace "  7  "
-# bindcode $mod+Shift+7 move container to workspace "  7  "
+
 bindsym $mod+Shift+8 move container to workspace "  8  "
-# bindcode $mod+Shift+8 move container to workspace "  8  "
+
 bindsym $mod+Shift+9 move container to workspace "  9  "
-# bindcode $mod+Shift+9 move container to workspace "  9  "
+
 bindsym $mod+Shift+0 move container to workspace "  10  "
-# bindcode $mod+Shift+0 move container to workspace "  10  "
+
 
 # focus output
 bindsym $mod+Mod1+o focus output right
-# bindcode $mod+Mod1+o focus output right
+
 bindsym $mod+Mod1+y focus output left
-# bindcode $mod+Mod1+y focus output left
+
 
 # move workspace to output
 bindsym $mod+Mod1+Shift+o move workspace to output right
-# bindcode $mod+Mod1+Shift+o move workspace to output right
+
 bindsym $mod+Mod1+Shift+y move workspace to output left
-# bindcode $mod+Mod1+Shift+y move workspace to output left
+
 
 # split in horizontal orientation
 bindsym $mod+b split h
-# bindcode $mod+b split h
+
 
 # split in vertical orientation
 bindsym $mod+v split v
-# bindcode $mod+v split v
+
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-# bindcode $mod+f fullscreen toggle
+
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+g layout stacking
-# bindcode $mod+g layout stacking
+
 bindsym $mod+w layout tabbed
-# bindcode $mod+w layout tabbed
+
 bindsym $mod+k layout toggle split
-# bindcode $mod+k layout toggle split
+
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -226,182 +226,183 @@ mode "resize" {
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
     bindsym y resize shrink width 10 px or 10 ppt
-    # bindcode y resize shrink width 10 px or 10 ppt
+
     bindsym n resize grow height 10 px or 10 ppt
-    # bindcode n resize grow height 10 px or 10 ppt
+
     bindsym e resize shrink height 10 px or 10 ppt
-    # bindcode e resize shrink height 10 px or 10 ppt
+
     bindsym o resize grow width 10 px or 10 ppt
-    # bindcode o resize grow width 10 px or 10 ppt
+
 
 # same bindings, but for the arrow keys
     bindsym Left resize shrink width 10 px or 10 ppt
-    # bindcode Left resize shrink width 10 px or 10 ppt
+
     bindsym Down resize grow height 10 px or 10 ppt
-    # bindcode Down resize grow height 10 px or 10 ppt
+
     bindsym Up resize shrink height 10 px or 10 ppt
-    # bindcode Up resize shrink height 10 px or 10 ppt
+
     bindsym Right resize grow width 10 px or 10 ppt
-    # bindcode Right resize grow width 10 px or 10 ppt
+
 
 # back to normal: Enter or Escape
     bindsym Return mode "default"
-    # bindcode Return mode "default"
+
     bindsym Escape mode "default"
-    # bindcode Escape mode "default"
+
 }
 
 bindsym $mod+r mode "resize"
-# bindcode $mod+r mode "resize"
+
 
 # Save layouts
 bindsym $mod+Ctrl+Shift+1 exec i3-save-tree --workspace "  1  " > ~/.config/i3/workspaces/workspace-1.json
-# bindcode $mod+Ctrl+Shift+1 exec i3-save-tree --workspace "  1  " > ~/.config/i3/workspaces/workspace-1.json
+
 bindsym $mod+Ctrl+Shift+2 exec i3-save-tree --workspace "  2  " > ~/.config/i3/workspaces/workspace-2.json
-# bindcode $mod+Ctrl+Shift+2 exec i3-save-tree --workspace "  2  " > ~/.config/i3/workspaces/workspace-2.json
+
 bindsym $mod+Ctrl+Shift+3 exec i3-save-tree --workspace "  3  " > ~/.config/i3/workspaces/workspace-3.json
-# bindcode $mod+Ctrl+Shift+3 exec i3-save-tree --workspace "  3  " > ~/.config/i3/workspaces/workspace-3.json
+
 bindsym $mod+Ctrl+Shift+4 exec i3-save-tree --workspace "  4  " > ~/.config/i3/workspaces/workspace-4.json
-# bindcode $mod+Ctrl+Shift+4 exec i3-save-tree --workspace "  4  " > ~/.config/i3/workspaces/workspace-4.json
+
 bindsym $mod+Ctrl+Shift+5 exec i3-save-tree --workspace "  5  " > ~/.config/i3/workspaces/workspace-5.json
-# bindcode $mod+Ctrl+Shift+5 exec i3-save-tree --workspace "  5  " > ~/.config/i3/workspaces/workspace-5.json
+
 bindsym $mod+Ctrl+Shift+6 exec i3-save-tree --workspace "  6  " > ~/.config/i3/workspaces/workspace-6.json
-# bindcode $mod+Ctrl+Shift+6 exec i3-save-tree --workspace "  6  " > ~/.config/i3/workspaces/workspace-6.json
+
 bindsym $mod+Ctrl+Shift+7 exec i3-save-tree --workspace "  7  " > ~/.config/i3/workspaces/workspace-7.json
-# bindcode $mod+Ctrl+Shift+7 exec i3-save-tree --workspace "  7  " > ~/.config/i3/workspaces/workspace-7.json
+
 bindsym $mod+Ctrl+Shift+8 exec i3-save-tree --workspace "  8  " > ~/.config/i3/workspaces/workspace-8.json
-# bindcode $mod+Ctrl+Shift+8 exec i3-save-tree --workspace "  8  " > ~/.config/i3/workspaces/workspace-8.json
+
 bindsym $mod+Ctrl+Shift+9 exec i3-save-tree --workspace "  9  " > ~/.config/i3/workspaces/workspace-9.json
-# bindcode $mod+Ctrl+Shift+9 exec i3-save-tree --workspace "  9  " > ~/.config/i3/workspaces/workspace-9.json
+
 bindsym $mod+Ctrl+Shift+0 exec i3-save-tree --workspace "  10 " > ~/.config/i3/workspaces/workspace-10.json
-# bindcode $mod+Ctrl+Shift+0 exec i3-save-tree --workspace "  10 " > ~/.config/i3/workspaces/workspace-10.json
+
 
 ###### Applications #####################
 
 ### rofi (launch app)
+bindsym $mod+Mod3+q exec rofi -show run # TODO Add keybindings for ssh and others
 # bindsym $mod+Mod3+q exec rofi -show run # TODO Add keybindings for ssh and others
-bindcode $mod+Mod3+24 exec rofi -show run # TODO Add keybindings for ssh and others
+
 
 ### i3
 # config
 bindsym $mod+Mod1+Mod3+d exec term_exec vim ~/.config/i3/config
-# bindcode $mod+Mod1+Mod3+d exec term_exec vim ~/.config/i3/config
+
 # reload
 bindsym $mod+Mod3+Shift+d exec i3-msg reload && \
     notify-send 'i3 has been reloaded (not restarted)' --icon=dialog-information
-# bindcode $mod+Mod3+Shift+d exec i3-msg reload && \
+
 #     notify-send 'i3 has been reloaded (not restarted)' --icon=dialog-information
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Mod3+Ctrl+Shift+d exec i3-msg restart && \
     notify-send 'i3 has been restarted' --icon=dialog-information
-# bindcode $mod+Mod3+Ctrl+Shift+d exec i3-msg restart && \
+
 #     notify-send 'i3 has been restarted' --icon=dialog-information
 
 
 ### vim
 # config
 bindsym $mod+Mod1+Mod3+r exec term_exec vim ~/.vim_runtime/my_configs.vim
-# bindcode $mod+Mod1+Mod3+r exec term_exec vim ~/.vim_runtime/my_configs.vim
+
 
 ### dunst (notifications)
 # config
 bindsym $mod+Mod1+Mod3+w exec term_exec vim ~/.config/dunst/dunstrc
-# bindcode $mod+Mod1+Mod3+w exec term_exec vim ~/.config/dunst/dunstrc
+
 # reload
 bindsym $mod+Mod3+Shift+w exec reload_dunst
-# bindcode $mod+Mod3+Shift+w exec reload_dunst
+
 
 ### URxvt
 bindsym $mod+Return exec alacritty
-# bindcode $mod+Return exec alacritty
+
 
 ### Spotify
 bindsym $mod+Mod3+b exec spotify
-# bindcode $mod+Mod3+b exec spotify
+
 
 ### Music Player
 # play/pause
 bindsym $mod+p exec playerctl play-pause --player=spotify && \
     notify-send 'Play/Pause' --icon=dialog-information
-# bindcode $mod+p exec playerctl play-pause --player=spotify && \
+
 #     notify-send 'Play/Pause' --icon=dialog-information
 
 # next track
 bindsym $mod+s exec playerctl next --player=spotify
-# bindcode $mod+s exec playerctl next --player=spotify
+
 
 # previous track
 bindsym $mod+Shift+s exec playerctl previous --player=spotify
-# bindcode $mod+Shift+s exec playerctl previous --player=spotify
+
 
 
 ### wally (rebinding keyboard)
 bindsym $mod+Mod3+Shift+u exec wally ~/Documents/computer_config/my_awesome_layout.hex
-# bindcode $mod+Mod3+Shift+u exec wally ~/Documents/computer_config/my_awesome_layout.hex
+
 
 ### clipmenu
 # open
 bindsym $mod+h exec clipmenu -b -nb '#697C7F' -sb '#455A64' -sf '#81C784' -fn 'pango:Inconsolata 10'
-# bindcode $mod+h exec clipmenu -b -nb '#697C7F' -sb '#455A64' -sf '#81C784' -fn 'pango:Inconsolata 10'
+
 
 # Screenshot
 bindsym $mod+Shift+A exec deepin-screen-recorder
-# bindcode $mod+Shift+A exec deepin-screen-recorder
+
 
 ###### Documents ########################
 
 #### todo lists ####
 # upgrade computer
 bindsym $mod+Mod3+Ctrl+q exec term_exec vim ~/Documents/notes/upgrade_computer_note.md
-# bindcode $mod+Mod3+Ctrl+q exec term_exec vim ~/Documents/notes/upgrade_computer_note.md
+
 # vianova tasks
 bindsym $mod+Mod3+Ctrl+d exec term_exec vim ~/Documents/notes/vianova_todo.md
-# bindcode $mod+Mod3+Ctrl+d exec term_exec vim ~/Documents/notes/vianova_todo.md
+
 
 ### taking notes with vim
 # open
 bindsym $mod+Mod3+Ctrl+r exec term_exec vim ~/Documents/notes/things_to_remember.md
-# bindcode $mod+Mod3+Ctrl+r exec term_exec vim ~/Documents/notes/things_to_remember.md
+
 
 ### cheat sheet
 # open
 bindsym $mod+Mod3+Ctrl+w exec term_exec vim ~/Documents/notes/command_cheat_sheet.md
-# bindcode $mod+Mod3+Ctrl+w exec term_exec vim ~/Documents/notes/command_cheat_sheet.md
+
 
 ### list important files modified by me (not really using it for now)
 # open
 bindsym $mod+Mod3+Ctrl+b exec term_exec vim ~/Documents/files_modified_by_me.md
-# bindcode $mod+Mod3+Ctrl+b exec term_exec vim ~/Documents/files_modified_by_me.md
+
 
 ###### Configuration files ##############
 
 ### Xkeymap
 # open
 bindsym $mod+Mod3+Shift+b exec term_exec vim ~/.Xkeymap
-# bindcode $mod+Mod3+Shift+b exec term_exec vim ~/.Xkeymap
+
 # reload
 bindsym $mod+Mod1+Mod3+Shift+b exec xkbcomp ~/.Xkeymap $DISPLAY && \
     notify-send 'Reloaded keyboard config' --icon=dialog-information
-# bindcode $mod+Mod1+Mod3+Shift+b exec xkbcomp ~/.Xkeymap $DISPLAY && \
+
 #     notify-send 'Reloaded keyboard config' --icon=dialog-information
 
 
 ### Xresources
 # open
 bindsym $mod+Mod3+Shift+a exec term_exec vim ~/.Xresources
-# bindcode $mod+Mod3+Shift+a exec term_exec vim ~/.Xresources
+
 # reload
 bindsym $mod+Mod1+Mod3+Shift+a exec --no-startup-id xrdb ~/.Xresources && \
     notify-send 'Reloaded Xressources' --icon=dialog-information
-# bindcode $mod+Mod1+Mod3+Shift+a exec --no-startup-id xrdb ~/.Xresources && \
+
 #     notify-send 'Reloaded Xressources' --icon=dialog-information
 
 ###### Environment modifications ########
 
 # lock
 bindsym $mod+space exec i3lock -i ~/.config/i3/lock.png
-# bindcode $mod+space exec i3lock -i ~/.config/i3/lock.png
+
 
 # volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -424,12 +425,12 @@ bindsym $mod+Mod1+Mod3+Shift+t exec i3-msg exit
 # encode/decode and pastes from clipboard
 bindsym $mod+x exec encodexclipbase64 && \
     notify-send 'base64 ENCODED then copied to clipboard' --icon=dialog-information
-# bindcode $mod+53 exec encodexclipbase64 && \
+
 #     notify-send 'base64 ENCODED then copied to clipboard' --icon=dialog-information
 
 bindsym $mod+z exec decodexclipbase64 && \
     notify-send 'base64 DECODED then copied to clipboard' --icon=dialog-information
-# bindcode $mod+z exec decodexclipbase64 && \
+
 #     notify-send 'base64 DECODED then copied to clipboard' --icon=dialog-information
 
 
@@ -460,5 +461,7 @@ exec --no-startup-id ~/.config/i3/wallpaper.sh
 exec --no-startup-id ~/.config/i3/layout.sh
 
 # Custom keyboard config
-exec --no-startup-id test -f ~/.Xkeymap && xkbcomp ~/.Xkeymap $DISPLAY
+exec --no-startup-id test -f ~/.Xkeymap && xkbcomp -w 0 ~/.Xkeymap $DISPLAY && \
+    notify-send 'Loaded ~/.Xkeymap file' --icon=dialog-information
+
 
